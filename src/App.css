@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+.button-33 {
+    font-weight: 500;
+    background-color: #c2fbd7;
+   border-radius: 100px;
+   box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+   color: green;
+   cursor: pointer;
+   display: inline-block;
+   font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+   padding: 7px 20px;
+   text-align: center;
+   text-decoration: none;
+   transition: all 250ms;
+   border: 0;
+   font-size: 16px;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+ }
+
+.button-33:hover {
+  box-shadow: rgba(0, 255, 0, 0.35) 0 -25px 18px -14px inset, rgba(0, 255, 0, 0.25) 0 1px 2px, rgba(0, 255, 0, 0.25) 0 2px 4px, rgba(0, 255, 0, 0.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+.button-85 {
+    font-weight: 500;
+
+    background-color: #fbc892;
+  border-radius: 100px;
+  box-shadow: rgba(187, 5, 72, 0.2) 0 -25px 18px -14px inset, rgba(187, 0, 73, 0.15) 0 1px 2px, rgba(184, 4, 67, 0.15) 0 2px 4px, rgba(255, 56, 63, 0.15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: #ff0000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-85:hover {
+  box-shadow: rgba(187, 0, 36, 0.35) 0 -25px 18px -14px inset, rgba(187, 7, 22, 0.25) 0 1px 2px, rgba(187, 17, 0, 0.25) 0 2px 4px, rgba(255, 0, 80, 0.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+.button-20 {
+    font-weight: 500;
+
+  border-radius: 100px;
+  box-shadow: rgba(60, 5, 187, 0.2) 0 -25px 18px -14px inset, rgba(39, 10, 187, 0.15) 0 1px 2px, rgba(40, 15, 184, 0.15) 0 2px 4px, rgba(58, 15, 255, 0.15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: #0000ff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-20:hover {
+  box-shadow: rgba(14, 35, 255, 0.35) 0 -25px 18px -14px inset, rgba(0, 17, 187, 0.25) 0 1px 2px, rgba(14, 22, 187, 0.25) 0 2px 4px, rgba(0, 36, 255, 0.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
